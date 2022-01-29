@@ -13,7 +13,7 @@ mean = sum(data) / len(data)
 median = statistics.median(data)
 #Finding The Mode
 mode = statistics.mode(data)
-print("Mea, Median, Mode are {},{} and {}".format(mean,meadian,mode))
+print("Mea, Median, Mode are {},{} and {}".format(mean,median,mode))
 
 #Finding The Standard Deviation
 std_deviation = statistics.stdev(data)
